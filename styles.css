@@ -1,0 +1,93 @@
+/* TODO : body background color coral */
+body {
+    background-color: #ed7677;
+    color: #a3a3a3;
+    font: inherit;
+}
+h1 {
+    font-size: 22px;
+}
+.form-outline {
+    position: relative;
+    width: 100vh;
+    height: 90vh;
+    margin: 0 auto;
+}
+.form-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    background-color: rgb(237 237 237);
+    height: 50vh;
+    width: 80vh;
+    text-align: center;
+
+}
+.form-title {
+    margin-top: 60px;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-color: #dfdfdf;
+}
+.text-box {
+    color: #c2c2c2;
+    height: 55px;
+    width: 550px;
+    
+  
+}
+::placeholder {
+    color: #c2c2c2;
+    font-size: 16px;
+    padding-left: 20px;
+    
+}
+
+li {
+    list-style: none;
+    margin-top: 35px;
+    
+}
+ul {
+    list-style: none;
+}
+.button {
+    color: rgb(200 238 235);
+    background-color: #7dd9d5;
+    border-style: none;
+    height: 45px;
+    width: 150px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.check-box {
+    height: 50px;
+    margin-right: 400px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+input#remember-me {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+   
+}
+label.box-text {
+    vertical-align: middle;
+    color: #c2c2c2;
+}
+
+
+/* TODO : heading is normal */
+
+/* TODO : text input fields only have a border all around */
+/* TODO : Login button is cyan clue */
+/* TODO : drop shadow on form  */
